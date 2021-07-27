@@ -1,0 +1,6 @@
+#+ endpoint: https://dbpedia.org/sparql
+
+SELECT ?b ?c WHERE {
+  ?b a ?__class_iri .
+  bind("\u0001" as ?c)
+} LIMIT 1

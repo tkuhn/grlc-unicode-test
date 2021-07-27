@@ -1,0 +1,6 @@
+#+ endpoint: https://dbpedia.org/sparql
+
+SELECT ?b ?c WHERE {
+  ?b a ?__class_iri .
+  bind("a" as ?c)
+} LIMIT 1
